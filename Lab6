@@ -37,8 +37,6 @@ public class Person {
     public static void main(String[] args) {
         Person p = new Person("Kavana", "S P", "F");
 
-        System.out.println("Person Details");
-        System.out.println("-----------------");
         System.out.println("FirstName: " + p.getFisrtName());
         System.out.println("LastName: " + p.getLastName());
         System.out.println("Gender: " + p.getGender());
